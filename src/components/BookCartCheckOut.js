@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Toaster, toast } from "react-hot-toast";
 
 const BookCartCheckOut = () => {
-  const { books, carts, updateCart, clearCart } = useContext(Context);
+  const { books, carts, clearCart } = useContext(Context);
   const [totalPrice, setTotalPrice] = useState(0);
   const shippingCost = 5;
 
