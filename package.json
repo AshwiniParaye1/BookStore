@@ -1,6 +1,5 @@
 {
-  "homepage": "https://ekamid.github.io/react-bookstore-cart",
-  "name": "react-bookstore-cart",
+  "name": "bookstore",
   "version": "1.1.1",
   "private": true,
   "dependencies": {
