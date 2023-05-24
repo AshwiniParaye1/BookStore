@@ -29,14 +29,13 @@ const BookCartCheckOut = () => {
   }, [tempTotal]);
 
   const handleCheckout = () => {
-    // Perform any checkout logic here
-    // ...
-
     // Clear the cart
     clearCart();
 
     // Show success message
-    toast.success("Checkout successful");
+    toast.success("Checkout successful", {
+      position: "top-right",
+    });
   };
 
   return (

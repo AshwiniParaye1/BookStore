@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Context } from "../context/Context";
 import BookCartItem from "./BookCartItem";
 import BookCartCheckOut from "./BookCartCheckOut";
-import emptyCart from "../assets/empty-cart.png";
+import Cart from "../assets/new.webp";
 
 const BookCart = () => {
   const { carts } = useContext(Context);
@@ -17,7 +17,7 @@ const BookCart = () => {
           height: "100vh",
         }}
       >
-        <img src={emptyCart} alt="" width={350} height={300} />
+        <img src={Cart} alt="" width={350} height={300} />
       </div>
     );
   } else {
