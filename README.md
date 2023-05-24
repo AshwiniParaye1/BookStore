@@ -1,24 +1,5 @@
-# Simple ReactJS Bookstore Cart Application
+# Bookstore Application
 
-## What is in the Repo
-
-This Project is a Simple ReactJS Application which demonstrates the following
-
-1. Creating Functional Components in React
-2. Using Bootstrap along with React
-3. Using of React hooks
-4. Fetching data from a json file
-5. Managing state using Context API
-6. Using Basic Routing in React
-7. Fetching and Inserting data in localStorage
-8. Using regex to search book
-9. And finally demonstrated how to add product to a cart list, how to assess price and checkout
-
-**_This project is part of my React cardio session. It can be used to build bigger projects_**
-
-## Live Application URL
-
-#### https://ekamid.github.io/react-bookstore-cart/
 
 ## Prerequisites
 
@@ -39,8 +20,8 @@ npm install -g create-react-app
 Clone the project into local
 
 ```bash
-git clone https://github.com/ekamid/react-bookstore-cart.git
-cd react-bookstore-cart
+git clone [https://github.com/AshwiniParaye1/BookStore.git](https://github.com/AshwiniParaye1/BookStore).git
+
 ```
 
 Install all the npm packages. Go into the project folder and type the following command to install all npm packages
