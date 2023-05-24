@@ -18,7 +18,7 @@ const Books = () => {
           <Fragment>
             {" "}
             Searching for '{searchString}'
-            <span onClick={() => clearSearch()} class="btn btn-danger ml-2">
+            <span onClick={() => clearSearch()} className="btn btn-danger ml-2">
               X
             </span>
           </Fragment>
